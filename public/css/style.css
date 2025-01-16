@@ -1,0 +1,178 @@
+/* Custom CSS */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #f5f5f5;
+}
+
+.navbar-brand{
+    font-weight: 700; 
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.dropdown-menu {
+    right: 0; /* Ensure it aligns to the right */
+    left: auto; /* Prevent it from overflowing to the left */
+    margin-right: 20px; /* Add space from the right edge */
+}
+
+
+.display-4, .text-center {
+    font-weight: 700; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.custom-card {
+    background: linear-gradient(135deg, #f3e5f5, #f5edf7);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-image-wrapper {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    border-bottom: 3px solid #6a1b9a;
+}
+
+.card-img-top {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.genre-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: rgba(106, 27, 154, 0.8);
+    color: #fff;
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #6a1b9a;
+    margin-top: 10px;
+}
+
+.card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+.custom-btn {
+    background-color: #6a1b9a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+    background-color: #4a0072;
+}
+
+.card {
+    margin-top: 50px; /* Beri jarak dari atas */
+    border-radius: 15px; /* Membuat sudut lebih halus */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Tambahkan shadow */
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f8f9fa; /* Warna latar belakang header */
+    border-bottom: 2px solid #6a1b9a; /* Tambahkan garis bawah */
+}
+
+.card-body input {
+    height: 50px; /* Atur tinggi input */
+    font-size: 1rem; /* Ukuran teks */
+}
+
+.card-footer {
+    /* display: flex;
+    justify-content: center;
+    padding: 20px; */
+    background-color: #f8f9fa;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+
+.btn-primary {
+    background-color: #6a1b9a;
+    /* border-radius: 25px; */
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #4a148c;
+    transform: scale(1.05);
+}
+
+.container:last-of-type {
+    margin-bottom: 50px; /* Atur sesuai kebutuhan */
+}
+
+footer {
+    background-color: #f8f9fa; /* Warna latar belakang footer */
+    padding: 20px 0; /* Tambahkan padding atas dan bawah */
+}
+
+footer .text-center {
+    background-color: transparent; /* Hapus background pada copyright jika tidak diperlukan */
+    padding: 10px 0; /* Sesuaikan padding */
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0; /* Sesuaikan padding teks copyright */
+    color: #6c757d; /* Warna teks */
+    font-size: 14px;
+}
+
+footer .container {
+    padding-bottom: 40px; /* Tambahkan jarak antara konten footer dan copyright */
+}
+
+/* Tambahkan jarak antara footer dan konten sebelumnya */
+body {
+    margin-bottom: 100px; /* Tambahkan jarak untuk memastikan footer berada di bawah */
+}
